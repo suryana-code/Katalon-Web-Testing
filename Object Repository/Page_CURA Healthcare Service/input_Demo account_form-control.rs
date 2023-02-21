@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>input_Demo account_form-control</name>
    <tag></tag>
-   <elementGuidId>6163be67-511e-4d08-af33-f4297ce43a0b</elementGuidId>
+   <elementGuidId>38fb85f4-a7cb-4c62-8f86-3eee7168a00c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#txt-username</value>
+         <value>input.form-control</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt-username']</value>
+         <value>//input[@value='John Doe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b9525aae-a7a8-4f41-8cac-533f4b5f5523</webElementGuid>
+      <webElementGuid>74539122-09e7-4215-8fbc-b5648677017e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>41b72545-18a6-44cd-8e1e-ed3a865870c0</webElementGuid>
+      <webElementGuid>45238bfa-c365-4544-b10c-c6d29ca6f8f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>ee152c67-ddf3-4288-b86b-c329828facd4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>txt-username</value>
-      <webElementGuid>bff5bc5c-057f-4a7a-9c56-397bfef09b57</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>8740196f-1aed-4d84-b7ce-1b962e989a06</webElementGuid>
+      <webElementGuid>f3b94ed2-8867-47aa-a98a-5310d5cb7f29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,54 +46,62 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Username</value>
-      <webElementGuid>7e7a6522-424f-48ba-ba2e-21473121a1a1</webElementGuid>
+      <webElementGuid>eddae3f6-5749-4d22-8d56-364e379ea5b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>off</value>
-      <webElementGuid>188b414a-a087-4756-8532-fb90ae0de4ba</webElementGuid>
+      <value>demo_username_label</value>
+      <webElementGuid>1783b8ae-17c0-4a65-bfb8-1c12a4ae5de6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>John Doe</value>
+      <webElementGuid>b7e187da-d7c1-45bf-8117-ebc05de0f883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt-username&quot;)</value>
-      <webElementGuid>196a4439-4c31-4d8d-9fd5-425abb24188a</webElementGuid>
+      <value>id(&quot;login&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-offset-3 col-sm-6&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;alert alert-info&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>5ad96992-0787-40a7-ab18-e5d2f05f849d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt-username']</value>
-      <webElementGuid>e4fcf9b8-5e85-4cc9-8f27-cb8a1192926c</webElementGuid>
+      <value>//input[@value='John Doe']</value>
+      <webElementGuid>306881f5-6e0f-4945-882f-711edde02578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[2]/div/input</value>
-      <webElementGuid>68a74398-9990-4eb3-92a6-a74813760e6b</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div/div/div/div/input</value>
+      <webElementGuid>d927c7e0-7908-4098-8ea2-71cf1b2c3eba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>dba3d204-ef1f-48ba-92c0-c2be60c2b014</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>c77c6110-0189-4599-a558-27c83f6c2876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'txt-username' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>ff409338-ad34-4c84-abd1-d18bfcd0d584</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Username']</value>
+      <webElementGuid>92bcff24-00fb-41c2-8a84-a7223b56c082</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
