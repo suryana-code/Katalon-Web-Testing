@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Web/TC-LoginCura'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web/Login/Positive/TCP-LoginCura'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeAreaScreenshot(0)
 
