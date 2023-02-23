@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura,Chrome 110.0.0.0,,,2023-02-23 22:42:08,2023-02-23 22:42:49,41.443s,FAILED
+,,,,,,,
+Test Cases/Web/Login/Positive/TCP-LoginCura,Chrome 110.0.0.0,,,2023-02-23 22:42:08,2023-02-23 22:42:17,8.975s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-23 22:42:09,2023-02-23 22:42:17,8.224s,PASSED
+navigateToUrl(url),Chrome 110.0.0.0,,,2023-02-23 22:42:17,2023-02-23 22:42:17,0.355s,FAILED
+,,,,,,,
+Test Cases/Web/Appointment/Positive/TCP-FillForm,Chrome 110.0.0.0,,,2023-02-23 22:42:17,2023-02-23 22:42:49,32.023s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 110.0.0.0,,,2023-02-23 22:42:18,2023-02-23 22:42:49,31.551s,FAILED

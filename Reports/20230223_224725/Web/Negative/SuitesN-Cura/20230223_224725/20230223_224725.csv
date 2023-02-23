@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SuitesN-Cura,Chrome 110.0.0.0,,,2023-02-23 22:47:28,2023-02-23 22:47:48,19.558s,PASSED
+,,,,,,,
+Test Cases/Web/Login/Negative/TCN-LoginCura,Chrome 110.0.0.0,,,2023-02-23 22:47:29,2023-02-23 22:47:48,19.124s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-23 22:47:29,2023-02-23 22:47:38,8.686s,PASSED
+navigateToUrl(url),Chrome 110.0.0.0,,,2023-02-23 22:47:38,2023-02-23 22:47:45,7.265s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 110.0.0.0,,,2023-02-23 22:47:45,2023-02-23 22:47:47,1.991s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""), 0)",Chrome 110.0.0.0,,,2023-02-23 22:47:47,2023-02-23 22:47:47,0.590s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 22:47:47,2023-02-23 22:47:48,0.167s,PASSED
