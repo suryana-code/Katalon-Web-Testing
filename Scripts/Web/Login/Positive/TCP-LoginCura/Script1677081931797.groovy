@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
 

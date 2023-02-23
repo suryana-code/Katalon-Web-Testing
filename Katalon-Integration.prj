@@ -6,6 +6,7 @@
    <UUID>b2215c39-1fa5-4a6a-98da-896536e8766b</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/topindoku/git/Katalon-Integration/Katalon-Integration.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
